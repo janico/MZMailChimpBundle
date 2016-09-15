@@ -1,5 +1,5 @@
 {
-    "name": "mlpz/mailchimp-bundle",
+    "name": "janico/mailchimp-bundle",
     "type": "symfony-bundle",
     "description": "mailchimp bundle",
     "keywords": ["mailchimp","api", "newsletter"],
@@ -7,13 +7,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Miguel Perez",
-            "email": "miguel@mlpz.mp"
+            "name": "Nico Berthy",
+            "email": "nico@matelli.mg"
         }
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*",
+        "symfony/framework-bundle": "2.*|~3.0",
         "kriswallsmith/buzz":">=0.7",
         "ext-curl": "*"
     },
